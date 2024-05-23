@@ -398,11 +398,9 @@ hr {
 }
 
 #contenedor-secundario{
-  display: grid; 
-  grid-template-columns: 60% 40%;
-  place-items: center;
-  margin-inline: 10px;
-  padding-block: 1rem;
+  margin: 2rem;
+  min-height: 35rem;
+  width: 100%;
 }
 /* Clearing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -434,16 +432,12 @@ there.
 
 /* Larger than tablet */
 @media (min-width: 750px) {
-  #contenedor-principal {
-    width: 60rem;
-  }
+
 }
 
 /* Larger than desktop */
 @media (min-width: 1000px) {
-  #contenedor-principal {
-    width: 80rem;
-  }
+ 
 }
 
 /* Larger than Desktop HD */

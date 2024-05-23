@@ -831,10 +831,13 @@ button.ui-button::-moz-focus-inner {
 	bottom: 0;
 }
 .ui-tabs {
+	display: flex;
 	position: relative;/* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
 	padding: .2em;
 }
 .ui-tabs .ui-tabs-nav {
+	display: flex;
+	flex-direction: column;
 	margin: 0;
 	padding: .2em .2em 0;
 }
@@ -980,8 +983,8 @@ a.ui-button:focus {
 a.ui-button:active,
 .ui-button:active,
 .ui-button.ui-state-active:hover {
-	border: 1px solid #003eff;
-	background: #007fff;
+	border: 1px solid #ffffff;
+	background: #0aa5ff;
 	font-weight: normal;
 	color: #ffffff;
 }

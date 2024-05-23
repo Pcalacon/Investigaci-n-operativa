@@ -189,6 +189,7 @@
               indice = i;
             }
           }
+          console.log(valor);
           myApp.constVars.columnaPivote = [indice,valor];
         },
 
